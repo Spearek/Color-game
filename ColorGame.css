@@ -71,3 +71,25 @@ button:hover {
 	display: inline-block;
 	width: 20%;
 }
+/*Dodana responsywność*/
+
+@media screen and (max-width:610px){
+#titleColor{
+	font-size:100%;
+}
+#message{
+	width:30%;
+}
+}
+@media screen and (max-width:390px){
+#message{
+	width:100%;
+}
+.stripe{
+	height: 85px;
+}
+.stripe button{
+	margin:2px;
+	height: 25px;
+}
+}
